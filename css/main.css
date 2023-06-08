@@ -1,0 +1,93 @@
+h1{
+  color: azure;
+}
+h2{
+  color: black;
+  text-align: center;
+}
+body{
+    margin: 0;
+    background-color: rgb(35, 2, 88);
+    background-image: url(../tech.jpeg);
+    font-size: system-ui;
+    
+} 
+
+header{
+  width: 100%;
+  height: 80px;
+  background: rgb(199, 159, 98);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo{
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.hamburger{
+  display: none;
+}
+.nav-bar ul{
+  display: flex;
+}
+.nav-bar ul li a{
+  display: block;
+  color: rgb(243, 243, 243);
+  font-size: 25px;
+  padding: 10px 25px;
+  border-radius: 50px;
+  transition: 0.2s;
+  margin: 0px 10px;
+}
+.nav-bar ul li a:hover{
+  color:rgb(252, 252, 252);
+  background: rgb(14, 13, 13);
+}
+
+p{
+  color: black;
+}
+
+.main-p{
+  font-size: 20px;
+  text-align: left;
+}
+
+.squareBox {
+  width: 900px;
+  height: 600px;
+  background-color: rgb(199, 159, 98);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-size: 20px;
+  margin: 0 auto; /* Add this line to center the box horizontally */
+  margin-top: 50px; /* Adjust the margin-top value to move the box vertically */
+}
+
+.text{
+  position: fixed;
+  top: 140px;
+  bottom: 20px;
+  left: 200px;
+  width: 200px;
+  height: 401px;
+  background-color: rgb(214, 178, 124);
+  color: rgb(238, 238, 238);
+  overflow: auto; /* Add this line for scrollability */
+  padding: 20px; /* Add padding for better readability */
+  border-radius: 10px; /* Add rounded corners for a box-like appearance */
+}
+
+h2{
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: left;
+}
